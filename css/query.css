@@ -1,0 +1,221 @@
+
+@media (max-width:576px) {
+
+    .custom_container{
+        width: 100%;
+    }  
+
+    .custom_header{
+        height: 10vw;
+        padding:0 10px;
+    }
+
+    .logo_image img {
+        width: 15vw;
+    }
+
+    .navbar a {
+        padding: 0 5px;
+        font-size: 1.4vw;
+    }
+
+/* -------------------------------- Hero section  ------------------------   */
+
+.hero_section{
+    height:auto;
+    padding:6rem 20px;
+}
+
+.hero_section .custom_flex_center{
+    display: block;
+}
+
+.hero_section_content{
+    padding-bottom: 2rem;
+}
+
+.heading_content h2{
+    width: 60%;
+    font-size: 4.2vw;
+}
+
+.heading_content p {
+    font-size: 4vw;
+}
+
+.heading_para_content p {
+    width: 70vw;
+    font-size: 3.45vw;
+}
+
+.hero_section_image img {
+    width:90vw;
+    height: 50vw;
+    object-fit: cover;
+}
+
+
+.hero_section .custom_flex_between{
+    display: block;
+}
+
+.get_in_touch, .pricing {
+    outline: none;
+    width: 16vw;
+    height: 5.48vw;
+    font-size:2vw;
+    
+}
+
+/* --------------------------------- instacraft clone -----------------------------  */
+
+.instacart_clone {
+    height:50vw;
+}
+
+.instacart_clone h2 {
+    font-size: 5vw;
+}
+
+.instacart_clone p {
+    font-size: 2.5vw;
+}
+
+.instagcart_shopping_experience{
+    height: 100vw;
+}
+
+.instagcart_shopping_text_content h2 {
+    width: 80vw;
+    font-size:5vw;
+}
+
+.instagcart_shopping_text_content p {
+    width: 70vw;
+    height: 25vw;
+    font-size: 2.5vw;
+    color: black;
+}
+
+.instacart_shopping_image img{
+    margin-top: 2rem;
+    width: 60vw;
+    height: 40vw;
+    object-fit: cover;
+}
+
+/* -----------------instacart_shopping_image_text-------  */
+
+.instacart_shopping_image_text{
+    display: block;
+    padding: 0 20px;
+}
+
+
+/* -------------------- picker app ------------  */
+
+.clone_features_text{
+   margin-bottom:1rem;
+}
+
+.clone_features{
+    display: block;
+    height: auto;
+}
+
+.picker_app {
+    width: 60vw;
+    height: 60vw;
+    margin: 8rem 1rem;
+}
+
+.picker_app img {
+    width: 30vw;
+    height: 30vw;
+}
+
+.picker_app_content h5 {
+    padding: 0 5px;
+    font-size: 4.5vw;
+    height: 10vw;
+}
+
+.picker_app_content p {
+    font-size: 3vw;
+    width: 80%; 
+    margin-top: 1rem;
+} 
+
+.customer_flow p {
+    font-size: 2.5vw;
+}
+
+/* --------------mobile_images and content_block------------------ */
+
+.custom_customer_flow{
+    display: block;
+    height:auto;
+}
+
+.custom_interactive_Section{
+    margin-top:10rem;
+    margin-left: 1rem;
+    width: 80vw;
+    height: 40vw;
+}
+
+.custom_interactive_Section img {
+    width: 30vw;
+    height: 60vw; 
+}
+
+.interactive_section p {
+    font-size:2vw;
+    width: 40vw;
+    top: 35%;
+}
+
+.interactive_section h2 {
+    width: 40vw;
+    font-size: 3.2vw;
+    top: 10%;
+}
+
+/* ------------------------ last_Section---------------  */
+
+.custom_grocery_content {
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+
+.flex_reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.grocer_delivery_image img{
+    width: 60vw;
+}
+
+.grocer_delivery_image{
+    width:100%;
+}
+
+.grocer_delivery_content{
+    padding:20px 0;
+}
+
+.grocer_delivery_content h2 {
+    width: 80vw;
+    font-size:4vw;
+}
+
+.grocer_delivery_content p {
+    width: 80vw;
+    font-size: 3vw;  
+}
+
+}
+

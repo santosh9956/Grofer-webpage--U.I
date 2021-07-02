@@ -1,0 +1,435 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------ font-family - Product sans ----------------------------------  */
+@font-face {
+    font-family:Product-Sans-regular;
+    src: url('/product-sans/Product\ Sans\ Regular.ttf');
+}
+@font-face {
+    font-family:Product-Sans-bold ;
+    src: url('/fonts/product-sans/Product\ Sans\ Bold.ttf'); }
+
+@font-face {
+    font-family: Muli-black;
+    src: url('/fonts/muli-cufonfonts/Muli-Black.ttf'); }
+
+@font-face {
+    font-family:Muli-semibold ;
+    src: url('/fonts/muli-cufonfonts/Muli-SemiBold.ttf'); }
+
+@font-face {
+    font-family:Muli-extrabold ;
+    src: url('/fonts/muli-cufonfonts/Muli-ExtraBold.ttf'); }
+
+
+/* ----------------------- global css section ----------------------  */
+
+
+.custom_container{
+    width: 90vw;
+    /* max-width: 1080px; */
+}
+
+.custom_container_fluid{
+    width: 100%;
+}
+
+.custom_flex_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom_flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_pt_one{
+    padding-top: 1rem;
+}
+
+.custom_pb_two{
+    padding-bottom: 2rem;
+}
+
+.custom_pr_two{
+    padding-right: 2rem;
+}
+
+.custom_pl_one{
+    padding-right: 1rem;
+}
+
+
+.custom_mr_one{
+    margin-right: 1rem;
+}
+
+.custom_ml_two{
+    margin-left: 2rem;
+}
+
+.custom_mt_one{
+    margin-top: 1rem;
+}
+
+.custom_mb_two{
+    margin-bottom: 2rem;
+}
+
+.custom_text_center{
+    text-align: center;
+}
+
+.font_muli_black{
+    font-size: 3.12vw;
+    font-family: 'Muli-black';
+}
+
+.font_muli_semibold{
+    font-size: 1.46vw;
+    font-family: 'Muli-semibold';
+}
+
+.text_center{
+    text-align: center;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.position_relative{
+    position: relative;
+}
+
+
+/* ------------------ Header_Section ---------------------------------------- */
+.custom_header{
+    height: 3.33vw;
+    box-shadow: 0px 3px 10px #00000021;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
+}
+
+
+.logo_image img{
+    width: 8vw;
+}
+
+.navbar a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #484848;
+    font-family: 'Product-Sans-regular';
+    font-size: 0.94vw;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.custom_justify_end{
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+/* --------------------------- Hero_Section-------------------------   */
+.hero_section{
+    margin: 0;
+    height: 54vw;
+    background-image: url('/Assests/Mask\ Group\ 1.png');
+    background-size: 100% 100%;
+}
+
+.heading_content h2{
+    font-family:'Muli-black';
+    font-size: 2.8vw;
+    width: 35vw;
+}
+
+.multi_vendor{
+    color: #EF5715;
+}
+
+.heading_para_content p{
+    width:45.46vw;  
+    font-size: 1.45vw;
+    font-family: 'Muli-semibold';
+}
+
+
+
+.hero_section_image img{
+    width: 45vw;
+    height: 28.38vw;
+}
+
+.get_in_touch,.pricing{
+    outline: none;
+    width: 12.35vw;
+    height: 4.48vw;
+    border-radius: 43px;
+    font-size: 1.25vw;
+    font-family: 'Product-Sans-bold';
+}
+
+.get_in_touch{
+    border: none;
+    color: white;
+    background-color: #EF5715;
+}
+
+.pricing{
+    color: #EF5715;
+    background-color: white;
+    border: 2px solid #EF5715;
+}
+
+.pricing:hover{
+    color: white;
+    background-color: #EF5715;
+    transition: .6s;
+}
+
+.get_in_touch:hover {
+    color: #EF5715;
+    background-color: white;
+    border: 2px solid #EF5715;
+     transition: .6s;
+}
+
+.picker_app:hover ,.custom_interactive_Section:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+/* --------------------- instacart_clone ------------------  */
+.instacart_clone{
+    height: 25vw;
+    background-color: #EF5715;
+    text-align: center;
+    flex-direction: column;
+}
+
+.instacart_clone h2{
+ color: white;
+}
+
+.instacart_clone p{
+    width: 78vw;
+    font-size: 1.46vw;
+    font-family: 'Muli-semibold';
+    color: white;
+}
+
+.instacart_shopping_image img{
+    width: 40vw;
+    
+}
+/* --------------------------------------- instacart_clone_Script --------------------- */
+.instacart_clone_Script{
+    background-color: #F8F8F8;
+}
+
+/* --------------------------instacart_Shopping_experience--------------------------- */
+
+.instagcart_shopping_experience{
+    height: 36vw;
+    /* border: 2px solid rgb(168, 39, 243); */
+}
+
+.instagcart_shopping_text_content h2{
+    width: 37vw;
+    color: black;
+}
+
+.instagcart_shopping_text_content p{
+    width: 43vw;
+    height: 14.16vw;
+    font-size: 1.46vw;
+    font-family: 'Muli-semibold';
+    color: black;
+}
+
+/* --------------------------------------------------- instacart_clone_features-------------- */
+
+.instacart_clone_features{
+    background-color: #F8F8F8;
+
+}
+
+.clone_features{
+    height: 50vw;
+}
+
+.clone_features_text{
+    text-transform: uppercase;
+    color: black; 
+    margin-top: 4rem;
+}
+
+.picker_app{
+    position: relative;
+    flex-direction: column;
+    width: 25vw;
+    height: 26vw;
+    background-color: #EF5715;
+    border-radius: 20px;
+}
+
+.picker_app img{
+    width: 13vw;
+    height: 13vw;
+    position: absolute;
+    top: -25%;
+    left: 25%;
+}
+
+.picker_app_content h5 , .picker_app_content p{
+    color:white;
+    text-align: center;
+}
+
+.picker_app_content h5{
+    font-size: 1.87vw;
+    height: 5vw;
+    font-family: 'Muli-extrabold';
+}
+
+.picker_app_content p{
+    font-family: 'Muli-semibold';
+    font-size: 1.35vw;
+    width: 19.2vw; 
+}
+
+.picker_app_content{
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+/* --------------- Custoer_flow-----------------------------------------  */
+
+.customer_flow p{
+    width: 78vw;
+    font-size: 1.46vw;
+    font-family: 'Muli-semibold';
+    color: black;
+}
+
+.custom_customer_flow{
+    height: 38vw;
+    align-items: flex-end;
+}
+
+.custom_interactive_Section{
+    height: 32vw;
+    position: relative;
+    flex-basis: 40vw;
+    height: 21vw;
+    background-color: #EF5715;
+    border-radius: 20px;
+    box-shadow: 0px 13px 26px #00000029;
+}
+
+.custom_interactive_Section img{
+    width: 15.5vw;
+    height: 30vw;
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    z-index: 2;
+}
+/* -------------------- customer-flow interactive section ------------------  */
+.interactive_section h2{
+    width: 19vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Muli-extrabold';
+    position: absolute;
+    right: 6%;
+    top: 8%;
+}
+
+.interactive_section p{
+    color: white;
+    font-family: 'Muli-semibold';
+    font-size: 1.14vw;
+    width: 19vw;
+    position: absolute;
+    right: 6%;
+    top: 28%;
+}
+
+
+/* ----------------------------- Store_picker_background --------------------- */
+
+.Store_picker_background{
+    background-color: #F8F8F8;
+}
+
+.store_picker_text{
+    background-color: white;
+}
+
+.store_picker_text h2{
+    color: #EF5715;
+}
+
+.store_picker_text p{
+    color: black;
+}
+
+/* -------------------------- grocery -delivery ----------------  */
+
+.grocery_delivery_background{
+    background-color: #EF5715;
+}
+
+.grocery_delivery_text h2{
+    color: black;
+}
+/* ------------------------- Grocery download section -----------------    */
+.grocery_download_section{
+    background-color: #F8F8F8;
+}
+
+.custom_grocery_content{
+    height: 35vw;
+}
+
+.grocer_delivery_image img{
+    width: 45vw;
+}
+
+.grocer_delivery_content h2{
+    text-transform: uppercase;
+    width: 42vw;
+    font-size: 2.30vw;
+    font-family: 'Muli-black';  
+}
+
+.grocer_delivery_content p{
+    width: 41vw;
+    font-size: 1.67vw;
+    font-family: 'Muli-semibold';
+    
+}
+
+
+
+
+
+
+
